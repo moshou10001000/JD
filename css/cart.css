@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "微软雅黑";
+}
+
+i {
+    font-style: normal;
+    font-family: Consolas;
+}
+
+img {
+    display: block;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+a {
+    color: #666;
+}
+
+.red {
+    color: #c81623 !important;
+}
+
+.top {
+    background: #f1f1f1;
+    height: 30px;
+}
+
+.inner {
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top .inner div {
+    float: left;
+}
+
+.top .inner div a {
+    display: block;
+    height: 30px;
+    vertical-align: top;
+}
+
+.top .inner div span {
+    display: inline-block;
+    font-family: Consolas;
+    height: 10px;
+    line-height: 10px;
+}
+
+.top .inner {
+    line-height: 30px;
+}
+
+.top .inner ul {
+    float: right;
+}
+
+.top .inner ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.top .inner ul .mJD {
+    background: url(../images/jd2015img.png) no-repeat 0px 6px;
+    padding-left: 20px;
+}
+
+.top .inner ul .spile {
+    margin: 9px 10px;
+    width: 1px;
+    height: 12px;
+    background: #ddd;
+}
+
+.top .inner ul li a span {
+    font-size: 10px;
+    font-family: Arial;
+    padding-left: 10px;
+}
+
+.headerTop {
+    height: 120px;
+}
+
+.headerTop h1 {
+    float: left;
+    padding: 20px 90px 20px 0;
+    position: relative;
+}
+
+.headerTop h1 span {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 91px;
+    top: 30px;
+    background: white;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.headerTop .search {
+    float: right;
+    padding: 32px 0 0;
+}
+
+.headerTop .search .searchText {
+    height: 24px;
+    width: 270px;
+    vertical-align: top;
+    border: 2px solid #b61d1d;
+    padding-left: 5px;
+}
+
+.headerTop .search .searchBtn {
+    height: 28px;
+    width: 48px;
+    vertical-align: top;
+    background: #b61d1d;
+    color: #fff;
+    font-size: 14px;
+}
+
+.headerBot .toggle {
+    float: left;
+    height: 37px;
+    line-height: 37px;
+    font-size: 18px;
+}
+
+.headerBot .toggle li {
+    float: left;
+    padding: 0 20px;
+}
+
+.headerBot .arrive {
+    float: right;
+    font-size: 14px;
+}
+
+.cartMain .cartHeader {
+    background: #f3f3f3;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.cartMain .cartHeader li {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+}
+
+.cartMain .checkbox {
+    width: 133px;
+}
+
+.cartMain .product {
+    width: 208px;
+}
+
+.cartMain .style {
+    width: 180px;
+}
+
+.cartMain .price {
+    width: 160px;
+}
+
+.cartMain .quantity {
+    width: 80px;
+}
+
+.cartMain .sum {
+    width: 140px;
+}
+
+.cartMain .action {
+    width: 75px;
+}
+.cartMain .cartLists{
+    border-top: 2px solid #aaaaaa;
+}
+.cartMain .cartList {
+    overflow: hidden;
+    height: 110px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.cartMain .cartList div {
+    float: left;
+    line-height: 20px;
+    padding: 10px 0;
+}
+.cartMain .cartList .checkbox{
+    line-height: 50px;
+}
+.cartMain .cartList .product{
+    padding: 10px 5px;
+    width: 198px;
+}
+.cartMain .cartList .style{
+    padding: 10px 5px;
+    width: 170px;
+}
+
+.cartMain .cartList .quantity input{
+    display: inline-block;
+    width: 17px;
+    height: 22px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background: white;
+}
+
+.cartMain .cartList .quantity input:nth-child(2){
+    width: 30px;
+    height: 20px;
+}
+
+
+

@@ -1,0 +1,754 @@
+body {
+    font-family: "微软雅黑";
+}
+
+i {
+    font-style: normal;
+    font-family: Consolas;
+}
+
+img {
+    display: block;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+a {
+    color: #666;
+}
+
+.red {
+    color: #c81623 !important;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*初始化样式结束*/
+.bannerBot {
+    font-size: 0px;
+}
+
+.bannerBot a {
+    display: inline-block;
+}
+
+.top {
+    background: #f1f1f1;
+    height: 30px;
+}
+
+.inner {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.top .inner div {
+    float: left;
+}
+
+.top .inner div a {
+    display: block;
+    height: 30px;
+    vertical-align: top;
+}
+
+.top .inner div span {
+    display: inline-block;
+    font-family: Consolas;
+    height: 10px;
+    line-height: 10px;
+}
+
+.top .inner {
+    line-height: 30px;
+}
+
+.top .inner ul {
+    float: right;
+}
+
+.top .inner ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.top .inner ul .mJD {
+    background: url(../images/jd2015img.png) no-repeat 0px 6px;
+    padding-left: 20px;
+}
+
+.top .inner ul .spile {
+    margin: 9px 10px;
+    width: 1px;
+    height: 12px;
+    background: #ddd;
+}
+
+.top .inner ul li a span {
+    font-size: 10px;
+    font-family: Arial;
+    padding-left: 10px;
+}
+
+.banner {
+    background: #FFFFFF;
+    height: 1px;
+}
+
+.header {
+    height: 144px;
+    border-bottom: 2px solid #c00;
+}
+
+.headerTop {
+    overflow: hidden;
+}
+
+.header .headerTop h1 {
+    float: left;
+    padding: 20px 90px 20px 0;
+}
+
+.header .headerTop .search {
+    float: left;
+    padding: 25px 0 0;
+}
+
+.header .headerTop .search .searchText {
+    height: 32px;
+    width: 453px;
+    vertical-align: top;
+    border: 2px solid #b61d1d;
+    padding-left: 5px;
+}
+
+.header .headerTop .search .searchBtn {
+    height: 36px;
+    width: 80px;
+    vertical-align: top;
+    background: #b61d1d;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header .headerTop .buycar {
+    width: 139px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background: #f9f9f9;
+    float: right;
+    margin: 25px 65px;
+    line-height: 34px;
+    background: url(../images/jd2015img.png) no-repeat 17px -47px;
+    position: relative;
+}
+
+.header .headerTop .buycar a {
+    margin: 0 15px 0 40px;
+}
+
+.header .headerTop .buycar span {
+    font-family: Consolas;
+    color: #999;
+}
+
+.header .headerTop .buycar .biao {
+    width: 16px;
+    height: 14px;
+    border-radius: 6px 6px 6px 0px;
+    background: #c81623;
+    line-height: 14px;
+    text-align: center;
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    color: #fff;
+}
+
+.header .headerTop ul {
+    float: left;
+}
+
+.header .headerTop ul li {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.header .headerBot {
+    font-size: 0px;
+}
+
+.header .headerBot .meun {
+    display: inline-block;
+    height: 44px;
+    width: 210px;
+    background: #b1181a;
+    line-height: 44px;
+}
+
+.header .headerBot .meun a {
+    color: #fff;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.header .headerBot ul {
+    display: inline-block;
+}
+
+.header .headerBot ul li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header .headerBot ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 44px;
+    color: #333;
+}
+
+.rootNav {
+    background: #f2f2f2;
+}
+
+.rootNav .inner {
+    height: 45px;
+    margin: 0 auto;
+    line-height: 45px;
+}
+
+.rootNav .inner span {
+    font-family: Consolas;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.rootNav .inner a:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.selectArea {
+    background: #f2f2f2;
+}
+
+.selectArea .inner {
+    background: #fff;
+    overflow: hidden;
+}
+
+.selectArea .inner .picShowArea {
+    float: left;
+    width: 378px;
+}
+
+.selectArea .inner .picShowArea #viewPic {
+    margin: 10px;
+    width: 350px;
+    height: 350px;
+    background: url("../images/moreShowPic01.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.selectArea .inner .picShowArea #viewBox {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.selectArea .inner .picShowArea #showBox {
+    position: absolute;
+    left: 105%;
+    top: 0px;
+    overflow: hidden;
+    z-index: 10;
+    display: none;
+    border: 1px solid #CCCCCC;
+}
+
+.selectArea .inner .picShowArea #showPic {
+    position: absolute;
+    background: url("../images/moreShowPic01.jpg");
+    background-size: cover;
+}
+
+.selectArea .inner .picShowArea #listPic {
+    height: 54px;
+}
+
+.selectArea .inner .picShowArea #listPic .span {
+    float: left;
+    width: 30px;
+    line-height: 54px;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 40px;
+}
+
+.selectArea .inner .picShowArea #listPic .smallPic {
+    float: left;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    background: url("../images/moreShowPic01.jpg");
+    background-size: cover;
+}
+
+.selectArea .inner .picShowArea #listPic .ac {
+    border: 2px solid red;
+}
+
+.selectArea .inner .picShowArea .comNumber {
+    padding: 0px 36px;
+    line-height: 66px;
+}
+
+.selectArea .inner .picShowArea .comNumber p {
+    float: left;
+}
+
+.selectArea .inner .picShowArea .comNumber a {
+    float: right;
+    margin-left: 30px;
+}
+
+.selectArea .inner .selectSection {
+    width: 588px;
+    float: left;
+}
+
+.selectArea .inner .selectSection .title {
+    height: 115px;
+    padding-right: 85px;
+    position: relative;
+}
+
+.selectArea .inner .selectSection .title h3 {
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.selectArea .inner .selectSection .title p {
+    line-height: 20px;
+    font-size: 14px;
+    color: red;
+}
+
+.selectArea .inner .selectSection .title button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.selectArea .inner .selectSection .price {
+    background: #f7f7f7;
+    line-height: 50px;
+}
+
+.selectArea .inner .selectSection .price span {
+    display: inline-block;
+    text-align: right;
+    padding: 0px 20px;
+}
+
+.selectArea .inner .selectSection .price a {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.selectArea .inner .selectSection .address {
+    border-bottom: 1px dotted #cccccc;
+    height: 105px;
+}
+
+.selectArea .inner .selectSection .address span {
+    display: inline-block;
+    text-align: right;
+    padding: 0px 20px;
+}
+
+.selectArea .inner .selectSection .address .support {
+    line-height: 35px;
+}
+
+.selectArea .inner .selectSection .address .distribution {
+    line-height: 35px;
+}
+
+.selectArea .inner .selectSection .address .service {
+    line-height: 35px;
+}
+
+.selectArea .inner .selectSection .selectBox {
+    padding-top: 17px;
+    overflow: hidden;
+}
+
+.selectArea .inner .selectSection .selectBox p {
+    float: left;
+    height: 150px;
+    width: 70px;
+    line-height: 30px;
+}
+
+.selectArea .inner .selectSection .selectBox .selectMicroBox {
+    float: left;
+    padding: 0px 20px;
+    height: 28px;
+    border: 1px solid silver;
+    margin: 0px 8px 8px 0px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.selectArea .inner .selectSection .selectBox .selectMicroBox:hover {
+    border: 2px solid red;
+    height: 26px;
+    line-height: 26px;
+    padding: 0px 19px;
+}
+
+.selectArea .inner .selectSection .selectBox .ac {
+    border: 2px solid red;
+    height: 26px;
+    line-height: 26px;
+    padding: 0px 19px;
+}
+
+.selectArea .inner .selectSection .buyCar {
+    /*height: 200px;*/
+    padding: 0 10px;
+}
+
+.selectArea .inner .selectSection .buyCar .btn {
+    width: 50px;
+    border-left: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    overflow: hidden;
+    float: left;
+}
+
+.selectArea .inner .selectSection .buyCar .btn input {
+    height: 34px;
+    width: 34px;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.selectArea .inner .selectSection .buyCar .btn button {
+    height: 18px;
+    width: 15px;
+    border: 0px;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    float: right;
+    display: block;
+}
+
+.selectArea .inner .selectSection .buyCar .btn button:last-child {
+    height: 17px;
+}
+
+.selectArea .inner .selectSection .buyCar .addCar {
+    float: left;
+    margin-left: 10px;
+}
+
+.selectArea .inner .selectSection .buyCar .addCar a {
+    display: block;
+    height: 36px;
+    width: 135px;
+    background: url("../images/addCar.jpg");
+    font-size: 0px;
+}
+
+.selectArea .inner .selectSection .buyCar p {
+    clear: both;
+    line-height: 50px;
+}
+
+.selectArea .inner .shopInfo {
+    width: 200px;
+    padding: 20px;
+    float: left;
+}
+
+.selectArea .inner .shopInfo .shopLogo {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+}
+
+.selectArea .inner .shopInfo .shopName {
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.selectArea .inner .shopInfo .shopName a {
+    margin: 20px 10px;
+    float: left;
+    color: blue;
+}
+
+.selectArea .inner .shopInfo .shopName p {
+    float: right;
+    color: white;
+    background: red;
+    padding: 0px 5px;
+    height: 20px;
+    margin: 20px 10px;
+    border-radius: 3px;
+}
+
+.selectArea .inner .shopInfo .contact {
+    text-align: center;
+}
+
+.selectArea .inner .shopInfo .contact .contactBox {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    margin: 6px 2px;
+}
+
+.selectArea .inner .shopInfo .shopService h6 {
+    margin: 10px;
+}
+
+.selectArea .inner .shopInfo .shopService p {
+    display: inline-block;
+    padding-left: 20px;
+    margin: 0px 30px 0px 10px;
+    line-height: 17px;
+}
+
+.selectArea .inner .shopInfo .shopService p:nth-child(2) {
+    background: url("../images/yueliang.png") no-repeat;
+}
+
+.selectArea .inner .shopInfo .shopService p:last-child {
+    background: url("../images/shoutixiang.png") no-repeat;
+}
+
+.recommend {
+    border-top: 1px solid #f2f2f2;
+    padding-top: 10px;
+    margin-bottom: 500px;
+}
+
+.recommend .inner {
+    border: 1px solid #dddddd;
+    border-top: 0px;
+}
+
+.recommend .inner .titleList {
+    border-top: 2px solid #999999;
+    height: 29px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.recommend .inner .titleList li {
+    display: inline-block;
+    padding: 0px 12px;
+    line-height: 29px;
+    font-weight: bold;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.recommend .inner .titleList .ac {
+    border-bottom: 2px solid #ffffff;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-top: 2px solid #e4393c;
+    top: -6px;
+    left: 1px;
+    position: relative;
+    line-height: 36px;
+    margin-left: -2px;
+    height: 32px;
+    background: white;
+}
+
+.recommend .inner .productList {
+    height: 234px;
+    font-size: 0px;
+    display: none;
+}
+
+.recommend .inner .ac {
+    display: block;
+}
+
+.recommend .inner .productList li {
+    display: inline-block;
+}
+
+/*标语开始*/
+
+.slogan {
+    background: #F5F5F5;
+    height: 54px;
+    padding: 20px 0;
+}
+
+.slogan li {
+    float: left;
+}
+
+.slogan .slogan1 {
+    background: url(../images/slogan1.png) no-repeat;
+    height: 54px;
+    width: 302px;
+}
+
+.slogan .slogan2 {
+    background: url(../images/slogan2.png) no-repeat;
+    height: 54px;
+    width: 302px;
+}
+
+.slogan .slogan3 {
+    background: url(../images/slogan3.png) no-repeat;
+    height: 54px;
+    width: 302px;
+}
+
+.slogan .slogan4 {
+    background: url(../images/slogan4.png) no-repeat;
+    height: 54px;
+    width: 302px;
+}
+
+/*页脚开始*/
+
+.footerTop {
+    height: 202px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.footerTop dl {
+    float: left;
+    width: 199px;
+    padding-top: 16px;
+}
+
+.footerTop dl dt {
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.footerTop dl dd {
+    line-height: 20px;
+}
+
+.footerTop .map {
+    background: url(../images/map.png) no-repeat 0px -120px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 190px;
+    height: 202px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #666;
+}
+
+.footerTop .map h3 {
+    padding-top: 7px;
+    line-height: 53px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.footerTop .map p {
+    line-height: 18px;
+}
+
+.footerTop .map a {
+    line-height: 18px;
+    float: right;
+}
+
+.footerBot {
+    height: 196px;
+    text-align: center;
+    font-size: 0px;
+}
+
+.footerBot .aside {
+    padding-top: 12px;
+    line-height: 36px;
+}
+
+.footerBot .aside a {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.footerBot .aside span {
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background: #a366a3;
+    margin: 0px 12px;
+    transform: translateY(2px);
+}
+
+.footerBot p {
+    line-height: 20px;
+    font-size: 0px;
+}
+
+.footerBot p a {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.footerBot p span {
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background: #a366a3;
+    margin: 0px 7px 0px 8px;
+    transform: translateY(1px);
+}
+
+.footerBot p .police {
+    padding-left: 22px;
+    background: url(../images/police.jpg) no-repeat;
+}
+
+.footerBot .iconsBot a {
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+
+
+
+

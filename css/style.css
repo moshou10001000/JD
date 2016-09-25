@@ -1,0 +1,16 @@
+body,div,ul,li,ol,dl,dd,dt,input,h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Microsoft YaHei";
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+}
